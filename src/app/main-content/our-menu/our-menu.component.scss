@@ -1,0 +1,37 @@
+section {
+  font-family: "Raleway", sans-serif;
+  background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 180, 5vh;
+  h2 {
+    color: #9f0908;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 64px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 60px;
+  }
+  img {
+    width: 352px;
+    filter: drop-shadow(10px 10px 10px);
+  }
+  th {
+    font-size: 56px;
+    padding-bottom: 16px;
+  }
+  td {
+    font-weight: bold;
+    font-size: 32px;
+    color: #675e54;
+    padding-bottom: 8px;
+  }
+}
