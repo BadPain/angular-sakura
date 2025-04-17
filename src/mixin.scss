@@ -1,0 +1,10 @@
+@mixin dFlex($jc: center, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin borderStyle($bRadius: 8px,$color: #000, $width: 1px, $style: solid) {
+  border-radius: $bRadius;
+  border: $width $style $color;
+}
